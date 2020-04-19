@@ -1,20 +1,34 @@
 .title-container{
-border:solid black;
 display: flex;
 justify-content: center;
-flex-direction: column;
-align-items: center;
-padding: 10%;
-margin: 5%;
-width: 50%;
+ padding: 10%;
+ margin: 5%;
+ margin-left: 20%;
+ width: 60%;
+ background-image: url(/assets/Vincent-van-Gogh.jpg);
+.first{
+    .flexin( center,column,center)
+}
 
  h1{
-    font-size: 30px;
+    text-align: center; 
+    color:cornsilk;
+    font-size: 60px;
     padding: 6%;
+    font-weight:bold;
+   
     
  }
  button{
-     border:solid black;
-
+     .mix-button()
+      
+      }
+    
+ 
+    button:active{
+        transform: scaleX(0.9) translateY(4px);
+      }
+      button:not(:active){
+        border-bottom: 4px solid grey;
  }
 }
